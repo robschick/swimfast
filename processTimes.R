@@ -8,6 +8,7 @@ stimes$Stroke <- stroke
 stimes$Distance <- distance
 
 stimes$newTimes <- as.difftime(stimes$Time, format = '%M:%OS')
+# you can also make these numeric: as.numeric(timediff)
 # http://stackoverflow.com/questions/14480575/how-to-work-with-times-distance-and-speed
 # Try Edelbuettel's suggestion:
 
